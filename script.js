@@ -88,29 +88,29 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
     
-    // طباعة قوائم التحقق
-    const printButton = document.createElement('button');
-    printButton.textContent = '🖨️ طباعة قائمة الفحص';
-    printButton.style.cssText = `
-        padding: 10px 20px;
-        margin: 20px auto;
-        display: block;
-        background-color: #1a237e;
-        color: white;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        font-size: 16px;
-    `;
-    
-    const checklistSection = document.querySelector('.checklist');
-    if (checklistSection) {
+    // طباعة قوائم التحقق (زر مستقل لكل قائمة فحص بالمنصة)
+    const checklistSections = document.querySelectorAll('.checklist');
+    checklistSections.forEach(checklistSection => {
+        const printButton = document.createElement('button');
+        printButton.textContent = '🖨️ طباعة قائمة الفحص';
+        printButton.style.cssText = `
+            padding: 10px 20px;
+            margin: 0 0 20px;
+            display: block;
+            background-color: #1a237e;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        `;
+
         checklistSection.insertBefore(printButton, checklistSection.firstChild);
-        
+
         printButton.addEventListener('click', function() {
             window.print();
         });
-    }
+    });
     
     // عدّاد مرات الدخول
     let visitCount = localStorage.getItem('visitCount') || 0;
@@ -134,6 +134,23 @@ document.addEventListener('DOMContentLoaded', function() {
             console.log(`تم زيارة مصدر خارجي: ${sourceName}`);
         });
     });
+
+    // نموذج النشرة البريدية
+    const newsletterForm = document.querySelector('.newsletter-form');
+    if (newsletterForm) {
+        newsletterForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            const emailInput = this.querySelector('input[type="email"]');
+            const submitButton = this.querySelector('button');
+            if (emailInput && emailInput.value) {
+                submitButton.textContent = 'تم الاشتراك بنجاح ✓';
+                emailInput.value = '';
+                setTimeout(() => {
+                    submitButton.textContent = 'اشتراك';
+                }, 3000);
+            }
+        });
+    }
 });
 
 // وظيفة لإنشاء تقرير PDF (يمكن توسيعها)

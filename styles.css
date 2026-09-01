@@ -408,6 +408,38 @@ body {
     padding-right: 1.5rem;
 }
 
+/* فهرس قوائم الفحص */
+.checklist-index-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.checklist-index-card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.2rem;
+    background-color: var(--light-bg);
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--dark-text);
+    font-weight: bold;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.checklist-index-card i {
+    font-size: 1.8rem;
+    color: var(--primary-color);
+    flex-shrink: 0;
+}
+
+.checklist-index-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
 /* قوائم التحقق */
 .checklist {
     margin: 2rem 0;
@@ -462,11 +494,17 @@ body {
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-.reference-card img {
-    width: 100px;
-    height: 100px;
-    object-fit: contain;
-    margin-bottom: 1rem;
+.reference-icon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: var(--light-bg);
+    color: var(--primary-color);
+    font-size: 2rem;
 }
 
 .reference-card h3 {

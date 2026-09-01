@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>المنصة الهندسية للسلامة المهنية</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <!-- شريط التنقل العلوي -->
@@ -44,16 +44,16 @@
         </div>
         <div class="hero-stats">
             <div class="stat">
-                <span class="stat-number">15+</span>
-                <span class="stat-label">وحدة تدريبية</span>
+                <span class="stat-number">8</span>
+                <span class="stat-label">وحدات متخصصة</span>
             </div>
             <div class="stat">
-                <span class="stat-number">50+</span>
-                <span class="stat-label">قائمة فحص</span>
+                <span class="stat-number">8</span>
+                <span class="stat-label">قائمة فحص شاملة</span>
             </div>
             <div class="stat">
-                <span class="stat-number">100+</span>
-                <span class="stat-label">مرجع دولي</span>
+                <span class="stat-number">24+</span>
+                <span class="stat-label">معيار ومرجع دولي</span>
             </div>
         </div>
     </header>
@@ -466,13 +466,1930 @@
             </div>
         </section>
 
+        <!-- قسم الحماية من السقوط -->
+        <section id="fall-protection" class="module-section">
+            <div class="module-header">
+                <h2>وحدة الحماية من السقوط</h2>
+                <p class="module-code">كود المرجع: FP-002 | التحديث: 2024</p>
+            </div>
+
+            <div class="table-of-contents">
+                <h3>محتويات الوحدة:</h3>
+                <ol>
+                    <li><a href="#fp-components">مكونات نظام الحماية من السقوط</a></li>
+                    <li><a href="#fp-types">أنظمة الحماية من السقوط</a></li>
+                    <li><a href="#fp-specs">المواصفات الفنية ومعاملات الأمان</a></li>
+                    <li><a href="#fp-hazards">المخاطر الشائعة</a></li>
+                    <li><a href="#fp-procedure">إجراءات الاستخدام الآمن</a></li>
+                    <li><a href="#fp-inspection">الفحص والتفتيش</a></li>
+                    <li><a href="#fp-checklist">قوائم التحقق</a></li>
+                </ol>
+            </div>
+
+            <div id="fp-components" class="content-block">
+                <h3>1. مكونات نظام إيقاف السقوط الشخصي (PFAS)</h3>
+                <div class="component-grid">
+                    <div class="component-card">
+                        <div class="component-image"><i class="fas fa-vest"></i></div>
+                        <h4>حزام الأمان الكامل (Full Body Harness)</h4>
+                        <p>يوزع قوة السقوط على الجسم بالكامل عبر أشرطة الفخذ والكتف والصدر</p>
+                        <div class="tech-specs">
+                            <h5>المواصفات الفنية:</h5>
+                            <ul>
+                                <li>نقطة تثبيت خلفية (Dorsal D-ring) إلزامية</li>
+                                <li>حمل أقصى: 140 - 150 كجم</li>
+                                <li>مادة الأشرطة: بوليستر أو نايلون عالي القوة</li>
+                                <li>فحص بصري قبل كل استخدام إلزامي</li>
+                            </ul>
+                        </div>
+                        <div class="standard-references"><span>المرجع: ANSI/ASSP Z359.11 / EN 361</span></div>
+                    </div>
+                    <div class="component-card">
+                        <div class="component-image"><i class="fas fa-link"></i></div>
+                        <h4>خط الحياة وماص الصدمة (Lanyard & Shock Absorber)</h4>
+                        <p>يربط الحزام بنقطة التثبيت ويمتص طاقة السقوط لتقليل قوة التوقف</p>
+                        <div class="tech-specs">
+                            <h5>المواصفات الفنية:</h5>
+                            <ul>
+                                <li>الطول القياسي: 1.8m (ثابت أو قابل للتمدد)</li>
+                                <li>قوة التوقف القصوى (MAF): لا تتجاوز 8 kN (1800 رطل)</li>
+                                <li>ماص الصدمة يتمدد حتى 1.07m عند التفعيل</li>
+                                <li>يفضل استخدام خطاف ذاتي التراجع (SRL) للمسافات الكبيرة</li>
+                            </ul>
+                        </div>
+                        <div class="standard-references"><span>المرجع: OSHA 1926.502(d)</span></div>
+                    </div>
+                    <div class="component-card">
+                        <div class="component-image"><i class="fas fa-anchor"></i></div>
+                        <h4>نقطة التثبيت (Anchor Point)</h4>
+                        <p>نقطة هيكلية معتمدة يُربط بها نظام الحماية من السقوط</p>
+                        <div class="tech-specs">
+                            <h5>المواصفات الفنية:</h5>
+                            <ul>
+                                <li>تتحمل 22.2 kN (5000 رطل) لكل عامل مربوط</li>
+                                <li>أو تصميم بمعامل أمان 2:1 تحت إشراف مهندس مؤهل</li>
+                                <li>ترتفع فوق مستوى ظهر العامل قدر الإمكان</li>
+                                <li>مستقلة عن أي نظام دعم للسقالة أو المنصة</li>
+                            </ul>
+                        </div>
+                        <div class="standard-references"><span>المرجع: OSHA 1926.502(d)(15)</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="fp-types" class="content-block">
+                <h3>2. أنظمة الحماية من السقوط</h3>
+                <table class="types-table">
+                    <thead>
+                        <tr>
+                            <th>النظام</th>
+                            <th>المبدأ</th>
+                            <th>الاستخدام النموذجي</th>
+                            <th>المزايا</th>
+                            <th>القيود</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>الحماية الجماعية (حواجز)</td>
+                            <td>وقائي - يمنع الوصول لحافة السقوط</td>
+                            <td>حواف السقالات والأسطح والفتحات</td>
+                            <td>يحمي عدة عمال دون تدريب فردي</td>
+                            <td>غير عملي لكل المواقع</td>
+                        </tr>
+                        <tr>
+                            <td>شبكات الأمان (Safety Nets)</td>
+                            <td>وقائي - يوقف السقوط قبل الأرض</td>
+                            <td>الأعمال فوق فتحات كبيرة أو ارتفاعات شاهقة</td>
+                            <td>يحمي عدة عمال دون تقييد الحركة</td>
+                            <td>تحتاج مسافة سقوط كافية وفحص دوري</td>
+                        </tr>
+                        <tr>
+                            <td>نظام تقييد السقوط (Fall Restraint)</td>
+                            <td>يمنع الوصول لحافة السقوط أصلاً</td>
+                            <td>الأسطح والمنصات المفتوحة</td>
+                            <td>لا يحدث سقوط فعلي - خطر أقل</td>
+                            <td>يتطلب حساب دقيق لطول خط الربط</td>
+                        </tr>
+                        <tr>
+                            <td>نظام إيقاف السقوط الشخصي (PFAS)</td>
+                            <td>يوقف السقوط بعد حدوثه</td>
+                            <td>الأعمال الفردية على ارتفاعات متغيرة</td>
+                            <td>مرونة حركة عالية</td>
+                            <td>يتطلب تدريب وخطة إنقاذ وتفتيش دوري</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div id="fp-specs" class="content-block">
+                <h3>3. المواصفات الفنية ومعاملات الأمان</h3>
+                <div class="load-classification">
+                    <h4>معامل السقوط (Fall Factor) وأثره على قوة التوقف:</h4>
+                    <div class="load-table">
+                        <div class="load-row header">
+                            <span>معامل السقوط</span>
+                            <span>وصف الوضعية</span>
+                            <span>مستوى الخطورة</span>
+                            <span>ملاحظات</span>
+                        </div>
+                        <div class="load-row">
+                            <span>Factor 0</span>
+                            <span>نقطة التثبيت أعلى من العامل</span>
+                            <span>منخفضة</span>
+                            <span>الوضع المفضل دائماً</span>
+                        </div>
+                        <div class="load-row">
+                            <span>Factor 1</span>
+                            <span>نقطة التثبيت عند مستوى القدمين</span>
+                            <span>متوسطة</span>
+                            <span>يتطلب ماص صدمة فعّال</span>
+                        </div>
+                        <div class="load-row">
+                            <span>Factor 2</span>
+                            <span>نقطة التثبيت أسفل مستوى القدمين</span>
+                            <span>عالية جداً</span>
+                            <span>يُتجنب قدر الإمكان</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="safety-factors">
+                    <h4>معاملات الأمان الهندسية:</h4>
+                    <ul>
+                        <li><strong>الحد الأقصى لقوة التوقف (MAF):</strong> 8 kN (1800 رطل) للحزام الكامل</li>
+                        <li><strong>مسافة الخلوص الآمنة الدنيا:</strong> 5.5m تقريباً لخط حياة قياسي بطول 1.8m</li>
+                        <li><strong>معامل أمان نقطة التثبيت:</strong> 2:1 عند التصميم الهندسي، أو تحمل ثابت 22.2 kN</li>
+                        <li><strong>الارتفاع الذي يُلزم بالحماية:</strong> 1.8m (6 أقدام) في أعمال البناء وفق OSHA</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="fp-hazards" class="content-block">
+                <h3>4. المخاطر الشائعة وإجراءات السيطرة</h3>
+                <div class="hazard-grid">
+                    <div class="hazard-card critical">
+                        <h4><i class="fas fa-exclamation-triangle"></i> عدم كفاية مسافة الخلوص</h4>
+                        <p><strong>الاحتمالية:</strong> متوسطة | <strong>الشدة:</strong> كارثية</p>
+                        <div class="control-measures">
+                            <h5>إجراءات السيطرة:</h5>
+                            <ul>
+                                <li>حساب مسافة السقوط الكلية قبل بدء العمل</li>
+                                <li>استخدام خطافات ذاتية التراجع (SRL) لتقليل مسافة السقوط الحر</li>
+                                <li>رفع نقطة التثبيت فوق مستوى الكتف عند الإمكان</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="hazard-card critical">
+                        <h4><i class="fas fa-exclamation-triangle"></i> تأرجح السقوط (Swing Fall)</h4>
+                        <p><strong>الاحتمالية:</strong> متوسطة | <strong>الشدة:</strong> حرجة</p>
+                        <div class="control-measures">
+                            <h5>إجراءات السيطرة:</h5>
+                            <ul>
+                                <li>وضع نقطة التثبيت مباشرة فوق منطقة العمل قدر الإمكان</li>
+                                <li>تقييد نصف قطر الحركة الأفقية للعامل</li>
+                                <li>إبعاد العامل عن الحواف الحادة والعوائق الجانبية</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="hazard-card moderate">
+                        <h4><i class="fas fa-exclamation-circle"></i> فشل نقطة التثبيت</h4>
+                        <p><strong>الاحتمالية:</strong> منخفضة | <strong>الشدة:</strong> كارثية</p>
+                        <div class="control-measures">
+                            <h5>إجراءات السيطرة:</h5>
+                            <ul>
+                                <li>اعتماد نقاط تثبيت مصممة أو معتمدة من مهندس مؤهل</li>
+                                <li>حظر استخدام الدرابزين أو الأنابيب غير المصممة كنقاط تثبيت</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="hazard-card moderate">
+                        <h4><i class="fas fa-exclamation-circle"></i> غياب خطة الإنقاذ</h4>
+                        <p><strong>الاحتمالية:</strong> عالية | <strong>الشدة:</strong> حرجة</p>
+                        <div class="control-measures">
+                            <h5>إجراءات السيطرة:</h5>
+                            <ul>
+                                <li>إعداد خطة إنقاذ سريع قبل بدء العمل (خطر الصدمة التعليقية)</li>
+                                <li>تدريب فريق الإنقاذ ومعدات إنقاذ جاهزة بالموقع</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="fp-procedure" class="content-block">
+                <h3>5. إجراءات الاستخدام الآمن (منهجية ABCD)</h3>
+                <div class="erection-steps">
+                    <div class="step">
+                        <div class="step-number">A</div>
+                        <div class="step-content">
+                            <h5>Anchor - نقطة التثبيت</h5>
+                            <ul>
+                                <li>اختيار نقطة تثبيت معتمدة تتحمل 22.2 kN</li>
+                                <li>وضعها أعلى مستوى العامل قدر الإمكان لتقليل معامل السقوط</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">B</div>
+                        <div class="step-content">
+                            <h5>Body Wear - ارتداء الحزام</h5>
+                            <ul>
+                                <li>ضبط الأشرطة بإحكام دون تقييد الحركة</li>
+                                <li>التأكد من وضع حلقة الظهر (Dorsal D-ring) بين لوحي الكتف</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">C</div>
+                        <div class="step-content">
+                            <h5>Connection - نظام الربط</h5>
+                            <ul>
+                                <li>استخدام خطاف ذو بوابة أمان مزدوجة (Double-locking snap hook)</li>
+                                <li>التأكد من توافق نظام الربط مع نقطة التثبيت والحزام</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">D</div>
+                        <div class="step-content">
+                            <h5>Descent/Rescue - خطة الهبوط والإنقاذ</h5>
+                            <ul>
+                                <li>وجود خطة إنقاذ موثقة ومعدات إنقاذ جاهزة قبل بدء العمل</li>
+                                <li>تدريب فريق العمل على الاستجابة خلال أقل من 15 دقيقة</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="fp-inspection" class="content-block">
+                <h3>6. برنامج الفحص والتفتيش</h3>
+                <div class="inspection-schedule">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>نوع الفحص</th>
+                                <th>التوقيت</th>
+                                <th>المسؤول</th>
+                                <th>الوثائق المطلوبة</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>فحص بصري قبل الاستخدام</td>
+                                <td>قبل كل استخدام</td>
+                                <td>العامل نفسه</td>
+                                <td>بطاقة فحص المعدة</td>
+                            </tr>
+                            <tr>
+                                <td>فحص دوري رسمي</td>
+                                <td>كل 6 أشهر أو حسب توصية المصنّع</td>
+                                <td>شخص مؤهل (Competent Person)</td>
+                                <td>سجل فحص المعدات الفردية</td>
+                            </tr>
+                            <tr>
+                                <td>فحص بعد حادثة سقوط</td>
+                                <td>فوراً بعد أي تفعيل للنظام</td>
+                                <td>مهندس السلامة</td>
+                                <td>إخراج المعدة من الخدمة نهائياً</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div id="fp-checklist" class="content-block">
+                <h3>7. قائمة التحقق التفصيلية</h3>
+                <div class="checklist">
+                    <h4>قائمة فحص معدات الحماية من السقوط اليومية</h4>
+                    <div class="checklist-section">
+                        <h5>الحزام والأشرطة:</h5>
+                        <label><input type="checkbox"> لا توجد قطوع أو تآكل أو حروق في الأشرطة</label>
+                        <label><input type="checkbox"> الإبزيمات والحلقات المعدنية سليمة وغير مشوهة</label>
+                        <label><input type="checkbox"> الخيوط سليمة دون تفكك</label>
+                    </div>
+                    <div class="checklist-section">
+                        <h5>خط الحياة وماص الصدمة:</h5>
+                        <label><input type="checkbox"> ماص الصدمة غير مفعّل مسبقاً</label>
+                        <label><input type="checkbox"> الخطافات ذات بوابة أمان مزدوجة تعمل بسلاسة</label>
+                        <label><input type="checkbox"> بطاقة الفحص الدوري سارية</label>
+                    </div>
+                    <div class="checklist-section">
+                        <h5>نقطة التثبيت وخطة الإنقاذ:</h5>
+                        <label><input type="checkbox"> نقطة التثبيت معتمدة ومصممة هندسياً</label>
+                        <label><input type="checkbox"> مسافة الخلوص الآمنة محسوبة</label>
+                        <label><input type="checkbox"> خطة الإنقاذ جاهزة ومعدات الإنقاذ متوفرة</label>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- قسم السلامة الكهربائية -->
+        <section id="electrical" class="module-section">
+            <div class="module-header">
+                <h2>وحدة السلامة الكهربائية</h2>
+                <p class="module-code">كود المرجع: ELE-003 | التحديث: 2024</p>
+            </div>
+
+            <div class="table-of-contents">
+                <h3>محتويات الوحدة:</h3>
+                <ol>
+                    <li><a href="#elec-components">مكونات النظام الكهربائي المؤقت</a></li>
+                    <li><a href="#elec-types">مستويات الجهد ومسافات الأمان</a></li>
+                    <li><a href="#elec-specs">إجراءات العزل والإغلاق (LOTO)</a></li>
+                    <li><a href="#elec-hazards">المخاطر الشائعة</a></li>
+                    <li><a href="#elec-procedure">إجراءات العمل الآمن</a></li>
+                    <li><a href="#elec-inspection">الفحص والتفتيش</a></li>
+                    <li><a href="#elec-checklist">قوائم التحقق</a></li>
+                </ol>
+            </div>
+
+            <div id="elec-components" class="content-block">
+                <h3>1. مكونات التمديدات الكهربائية المؤقتة بالموقع</h3>
+                <div class="component-grid">
+                    <div class="component-card">
+                        <div class="component-image"><i class="fas fa-plug-circle-bolt"></i></div>
+                        <h4>قواطع حماية التسرب الأرضي (GFCI/RCD)</h4>
+                        <p>تفصل التيار فوراً عند اكتشاف تسرب للأرض لحماية العامل من الصعق</p>
+                        <div class="tech-specs">
+                            <h5>المواصفات الفنية:</h5>
+                            <ul>
+                                <li>حساسية القطع: 30mA أو أقل للحماية الشخصية</li>
+                                <li>زمن الاستجابة: أقل من 30 ميلي ثانية</li>
+                                <li>إلزامية على كل منفذ مؤقت بالموقع</li>
+                            </ul>
+                        </div>
+                        <div class="standard-references"><span>المرجع: OSHA 1926.404 / NFPA 70E</span></div>
+                    </div>
+                    <div class="component-card">
+                        <div class="component-image"><i class="fas fa-server"></i></div>
+                        <h4>لوحات التوزيع المؤقتة</h4>
+                        <p>توزع التيار من مصدر التغذية الرئيسي إلى نقاط الاستخدام بالموقع</p>
+                        <div class="tech-specs">
+                            <h5>المواصفات الفنية:</h5>
+                            <ul>
+                                <li>تصنيف حماية لا يقل عن IP44 للاستخدام الخارجي</li>
+                                <li>مؤرضة بشكل دائم وموصلة بسياج أرضي (Earthing)</li>
+                                <li>مقفلة ويصل إليها الأشخاص المخوّلون فقط</li>
+                            </ul>
+                        </div>
+                        <div class="standard-references"><span>المرجع: IEC 60439-4</span></div>
+                    </div>
+                    <div class="component-card">
+                        <div class="component-image"><i class="fas fa-lock"></i></div>
+                        <h4>معدات العزل والإغلاق (LOTO)</h4>
+                        <p>أقفال وبطاقات تمنع إعادة تشغيل المعدة أثناء الصيانة</p>
+                        <div class="tech-specs">
+                            <h5>المواصفات الفنية:</h5>
+                            <ul>
+                                <li>قفل فردي مرقم لكل فني، بدون مفاتيح مكررة</li>
+                                <li>بطاقة تحذيرية تحمل اسم الفني وتاريخ ووقت العزل</li>
+                                <li>صندوق عزل جماعي (Lock box) عند تعدد الفنيين</li>
+                            </ul>
+                        </div>
+                        <div class="standard-references"><span>المرجع: OSHA 1910.147</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="elec-types" class="content-block">
+                <h3>2. مستويات الجهد الكهربائي ومسافات الأمان</h3>
+                <table class="types-table">
+                    <thead>
+                        <tr>
+                            <th>الفئة</th>
+                            <th>مدى الجهد</th>
+                            <th>المسافة الآمنة الدنيا</th>
+                            <th>متطلبات إضافية</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>جهد منخفض جداً</td>
+                            <td>أقل من 50 فولت</td>
+                            <td>لا حاجة لمسافة خاصة</td>
+                            <td>احتياطات أساسية</td>
+                        </tr>
+                        <tr>
+                            <td>جهد منخفض</td>
+                            <td>50 - 1000 فولت</td>
+                            <td>3 أمتار (للرافعات والمعدات)</td>
+                            <td>عزل وتأريض إلزامي</td>
+                        </tr>
+                        <tr>
+                            <td>جهد متوسط</td>
+                            <td>1 - 33 كيلوفولت</td>
+                            <td>3.05 - 4.6 متر</td>
+                            <td>تنسيق مسبق مع شركة الكهرباء</td>
+                        </tr>
+                        <tr>
+                            <td>جهد عالي</td>
+                            <td>أكثر من 33 كيلوفولت</td>
+                            <td>6.1 متر فأكثر (حسب الجهد)</td>
+                            <td>مراقب مختص ومصرح عمل خاص</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div id="elec-specs" class="content-block">
+                <h3>3. إجراءات العزل والإغلاق (Lockout/Tagout)</h3>
+                <div class="safety-factors">
+                    <h4>خطوات LOTO الأساسية الست:</h4>
+                    <ul>
+                        <li><strong>1. الإبلاغ:</strong> إخطار جميع الأشخاص المتأثرين بإيقاف التشغيل</li>
+                        <li><strong>2. الإيقاف:</strong> إيقاف المعدة وفق إجراءات التشغيل الطبيعية</li>
+                        <li><strong>3. العزل:</strong> فصل مصادر الطاقة بالكامل من مصدر التغذية</li>
+                        <li><strong>4. القفل والتوسيم:</strong> تركيب القفل الفردي والبطاقة التحذيرية</li>
+                        <li><strong>5. تفريغ الطاقة المخزنة:</strong> تفريغ المكثفات والطاقة الهيدروليكية/الهوائية المتبقية</li>
+                        <li><strong>6. التحقق من العزل:</strong> اختبار انعدام الجهد قبل بدء العمل فعلياً</li>
+                    </ul>
+                </div>
+                <div class="safety-factors">
+                    <h4>فئات معدات الوقاية من القوس الكهربائي (Arc Flash PPE - NFPA 70E):</h4>
+                    <ul>
+                        <li><strong>الفئة 1:</strong> حتى 4 cal/cm² - ملابس مقاومة للهب أساسية</li>
+                        <li><strong>الفئة 2:</strong> حتى 8 cal/cm² - قفازات عازلة وواقي وجه</li>
+                        <li><strong>الفئة 3:</strong> حتى 25 cal/cm² - بدلة قوس كهربائي كاملة</li>
+                        <li><strong>الفئة 4:</strong> حتى 40 cal/cm² - بدلة كاملة مع خوذة وواقي رقبة</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="elec-hazards" class="content-block">
+                <h3>4. المخاطر الشائعة وإجراءات السيطرة</h3>
+                <div class="hazard-grid">
+                    <div class="hazard-card critical">
+                        <h4><i class="fas fa-exclamation-triangle"></i> الصعق الكهربائي المباشر</h4>
+                        <p><strong>الاحتمالية:</strong> متوسطة | <strong>الشدة:</strong> كارثية</p>
+                        <div class="control-measures">
+                            <h5>إجراءات السيطرة:</h5>
+                            <ul>
+                                <li>تركيب قواطع GFCI على جميع المنافذ المؤقتة</li>
+                                <li>تطبيق إجراءات LOTO قبل أي أعمال صيانة</li>
+                                <li>فحص العزل الكهربائي للكابلات دورياً</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="hazard-card critical">
+                        <h4><i class="fas fa-exclamation-triangle"></i> القوس الكهربائي (Arc Flash)</h4>
+                        <p><strong>الاحتمالية:</strong> منخفضة | <strong>الشدة:</strong> كارثية</p>
+                        <div class="control-measures">
+                            <h5>إجراءات السيطرة:</h5>
+                            <ul>
+                                <li>تحديد فئة خطر القوس الكهربائي لكل لوحة قبل العمل</li>
+                                <li>ارتداء معدات الوقاية المناسبة لفئة الخطر</li>
+                                <li>الحفاظ على مسافة الاقتراب الآمنة المحددة</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="hazard-card moderate">
+                        <h4><i class="fas fa-exclamation-circle"></i> الاقتراب من خطوط الجهد العالي</h4>
+                        <p><strong>الاحتمالية:</strong> متوسطة | <strong>الشدة:</strong> كارثية</p>
+                        <div class="control-measures">
+                            <h5>إجراءات السيطرة:</h5>
+                            <ul>
+                                <li>التنسيق المسبق مع شركة الكهرباء لتحديد الخطوط الحية</li>
+                                <li>الالتزام بمسافات الأمان حسب مستوى الجهد</li>
+                                <li>استخدام مراقب مختص عند تشغيل الرافعات قرب الخطوط</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="hazard-card moderate">
+                        <h4><i class="fas fa-exclamation-circle"></i> الكابلات المكشوفة والتالفة</h4>
+                        <p><strong>الاحتمالية:</strong> عالية | <strong>الشدة:</strong> خطيرة</p>
+                        <div class="control-measures">
+                            <h5>إجراءات السيطرة:</h5>
+                            <ul>
+                                <li>رفع الكابلات عن مسارات السير والمياه</li>
+                                <li>استبدال أي كابل يظهر تلف بالعزل فوراً</li>
+                                <li>استخدام كابلات مقاومة للماء والزيوت (Type SOOW أو مكافئ)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="elec-procedure" class="content-block">
+                <h3>5. إجراءات العمل الآمن الكهربائي</h3>
+                <div class="erection-steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h5>إصدار تصريح العمل الكهربائي</h5>
+                            <ul>
+                                <li>تحديد نوع العمل ومستوى الجهد والمخاطر المرافقة</li>
+                                <li>مراجعة واعتماد مهندس السلامة والمهندس الكهربائي المسؤول</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h5>تطبيق إجراءات العزل والإغلاق (LOTO)</h5>
+                            <ul>
+                                <li>تنفيذ الخطوات الست بالكامل والتحقق من انعدام الجهد</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h5>تنفيذ العمل بمعدات الوقاية المناسبة</h5>
+                            <ul>
+                                <li>ارتداء معدات الوقاية حسب فئة خطر القوس الكهربائي</li>
+                                <li>استخدام أدوات معزولة كهربائياً معتمدة</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <h5>إعادة التشغيل الآمن</h5>
+                            <ul>
+                                <li>التأكد من خلو منطقة العمل من الأفراد والأدوات</li>
+                                <li>إزالة الأقفال والبطاقات وفق تسلسل عكسي وإخطار الفريق</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="elec-inspection" class="content-block">
+                <h3>6. برنامج الفحص والتفتيش</h3>
+                <div class="inspection-schedule">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>نوع الفحص</th>
+                                <th>التوقيت</th>
+                                <th>المسؤول</th>
+                                <th>الوثائق المطلوبة</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>فحص بصري للكابلات واللوحات</td>
+                                <td>يومي</td>
+                                <td>الفني الكهربائي المناوب</td>
+                                <td>سجل الفحص اليومي</td>
+                            </tr>
+                            <tr>
+                                <td>اختبار قواطع GFCI</td>
+                                <td>أسبوعي (زر الاختبار Test)</td>
+                                <td>مهندس السلامة الكهربائية</td>
+                                <td>سجل اختبار القواطع</td>
+                            </tr>
+                            <tr>
+                                <td>فحص شامل للتمديدات المؤقتة</td>
+                                <td>شهري</td>
+                                <td>مقاول كهربائي مرخص</td>
+                                <td>تقرير فحص معتمد</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div id="elec-checklist" class="content-block">
+                <h3>7. قائمة التحقق التفصيلية</h3>
+                <div class="checklist">
+                    <h4>قائمة فحص السلامة الكهربائية اليومية</h4>
+                    <div class="checklist-section">
+                        <h5>الحماية من الصعق:</h5>
+                        <label><input type="checkbox"> جميع المنافذ المؤقتة مزودة بقواطع GFCI فعّالة</label>
+                        <label><input type="checkbox"> اللوحات مؤرضة بشكل صحيح</label>
+                        <label><input type="checkbox"> اللوحات مقفلة ومحمية من دخول المياه</label>
+                    </div>
+                    <div class="checklist-section">
+                        <h5>الكابلات والتمديدات:</h5>
+                        <label><input type="checkbox"> لا يوجد تلف ظاهر في عزل الكابلات</label>
+                        <label><input type="checkbox"> الكابلات مرفوعة عن مسارات السير</label>
+                        <label><input type="checkbox"> الوصلات محمية من الرطوبة</label>
+                    </div>
+                    <div class="checklist-section">
+                        <h5>إجراءات العزل والإغلاق:</h5>
+                        <label><input type="checkbox"> أقفال وبطاقات LOTO متوفرة لكل فني</label>
+                        <label><input type="checkbox"> تصريح العمل الكهربائي معتمد وموقع</label>
+                        <label><input type="checkbox"> تم التحقق من انعدام الجهد قبل بدء العمل</label>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- قسم الوقاية من الحرائق -->
+        <section id="fire" class="module-section">
+            <div class="module-header">
+                <h2>وحدة الوقاية من الحرائق</h2>
+                <p class="module-code">كود المرجع: FIR-004 | التحديث: 2024</p>
+            </div>
+
+            <div class="table-of-contents">
+                <h3>محتويات الوحدة:</h3>
+                <ol>
+                    <li><a href="#fire-components">مكونات نظام الوقاية والإخماد</a></li>
+                    <li><a href="#fire-types">تصنيف الحرائق وطفايات الإخماد</a></li>
+                    <li><a href="#fire-specs">متطلبات تصريح الأعمال الساخنة</a></li>
+                    <li><a href="#fire-hazards">المخاطر الشائعة</a></li>
+                    <li><a href="#fire-procedure">إجراءات الوقاية والاستجابة</a></li>
+                    <li><a href="#fire-inspection">الفحص والتفتيش</a></li>
+                    <li><a href="#fire-checklist">قوائم التحقق</a></li>
+                </ol>
+            </div>
+
+            <div id="fire-components" class="content-block">
+                <h3>1. مكونات نظام الوقاية والإخماد بالموقع</h3>
+                <div class="component-grid">
+                    <div class="component-card">
+                        <div class="component-image"><i class="fas fa-fire-extinguisher"></i></div>
+                        <h4>طفايات الحريق المحمولة</h4>
+                        <p>خط الدفاع الأول لإخماد الحرائق الصغيرة قبل تفاقمها</p>
+                        <div class="tech-specs">
+                            <h5>المواصفات الفنية:</h5>
+                            <ul>
+                                <li>توزيع بحد أقصى 23m مسافة سير للفئة A</li>
+                                <li>فحص شهري وإعادة تعبئة سنوية على الأقل</li>
+                                <li>تعليق على ارتفاع لا يتجاوز 1.5m من الأرض</li>
+                            </ul>
+                        </div>
+                        <div class="standard-references"><span>المرجع: NFPA 10</span></div>
+                    </div>
+                    <div class="component-card">
+                        <div class="component-image"><i class="fas fa-bell"></i></div>
+                        <h4>أنظمة الإنذار المبكر</h4>
+                        <p>تكشف الحريق أو الدخان مبكراً وتنبه العاملين للإخلاء</p>
+                        <div class="tech-specs">
+                            <h5>المواصفات الفنية:</h5>
+                            <ul>
+                                <li>كاشفات دخان/حرارة في مناطق التخزين والمكاتب المؤقتة</li>
+                                <li>مستوى صوت إنذار لا يقل عن 15dB فوق الضوضاء المحيطة</li>
+                                <li>اختبار دوري لضمان الجاهزية</li>
+                            </ul>
+                        </div>
+                        <div class="standard-references"><span>المرجع: NFPA 72</span></div>
+                    </div>
+                    <div class="component-card">
+                        <div class="component-image"><i class="fas fa-people-arrows"></i></div>
+                        <h4>نقاط التجمع ومسارات الإخلاء</h4>
+                        <p>مناطق آمنة محددة مسبقاً لتجمع العاملين عند الإخلاء</p>
+                        <div class="tech-specs">
+                            <h5>المواصفات الفنية:</h5>
+                            <ul>
+                                <li>مسافة آمنة عن المبنى لا تقل عن 15m</li>
+                                <li>مسارات إخلاء مزدوجة ومعلّمة بوضوح</li>
+                                <li>خالية من العوائق طوال الوقت</li>
+                            </ul>
+                        </div>
+                        <div class="standard-references"><span>المرجع: NFPA 241</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="fire-types" class="content-block">
+                <h3>2. تصنيف الحرائق وأنواع طفايات الإخماد</h3>
+                <table class="types-table">
+                    <thead>
+                        <tr>
+                            <th>الفئة</th>
+                            <th>نوع الوقود</th>
+                            <th>طفاية الإخماد المناسبة</th>
+                            <th>ملاحظات</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>الفئة A</td>
+                            <td>مواد صلبة (خشب، ورق، قماش)</td>
+                            <td>ماء أو رغوة أو بودرة جافة</td>
+                            <td>الأكثر شيوعاً بمواقع البناء</td>
+                        </tr>
+                        <tr>
+                            <td>الفئة B</td>
+                            <td>سوائل قابلة للاشتعال (وقود، دهان)</td>
+                            <td>بودرة جافة أو ثاني أكسيد الكربون</td>
+                            <td>يمنع استخدام الماء نهائياً</td>
+                        </tr>
+                        <tr>
+                            <td>الفئة C</td>
+                            <td>غازات قابلة للاشتعال</td>
+                            <td>بودرة جافة</td>
+                            <td>يلزم إغلاق مصدر الغاز أولاً</td>
+                        </tr>
+                        <tr>
+                            <td>الفئة D</td>
+                            <td>معادن قابلة للاشتعال</td>
+                            <td>بودرة معدنية خاصة (Class D)</td>
+                            <td>يمنع استخدام الماء أو ثاني أكسيد الكربون</td>
+                        </tr>
+                        <tr>
+                            <td>الفئة الكهربائية (C/Electrical)</td>
+                            <td>معدات ولوحات كهربائية حية</td>
+                            <td>ثاني أكسيد الكربون (CO2)</td>
+                            <td>يمنع استخدام الماء أو الرغوة</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div id="fire-specs" class="content-block">
+                <h3>3. متطلبات تصريح الأعمال الساخنة (Hot Work Permit)</h3>
+                <div class="safety-factors">
+                    <h4>الشروط الإلزامية قبل بدء أي عمل ساخن (لحام / قطع / صنفرة):</h4>
+                    <ul>
+                        <li><strong>إزالة المواد القابلة للاشتعال:</strong> في محيط 11 متراً من موقع العمل</li>
+                        <li><strong>مراقب حريق (Fire Watch):</strong> إلزامي أثناء العمل ولمدة 30 دقيقة بعده على الأقل</li>
+                        <li><strong>طفاية حريق جاهزة:</strong> بجانب موقع العمل مباشرة</li>
+                        <li><strong>ستائر لحام حرارية:</strong> لمنع تطاير الشرر إلى مناطق أخرى</li>
+                        <li><strong>اختبار الغلاف الجوي:</strong> إلزامي في الأماكن المغلقة قبل العمل</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="fire-hazards" class="content-block">
+                <h3>4. المخاطر الشائعة وإجراءات السيطرة</h3>
+                <div class="hazard-grid">
+                    <div class="hazard-card critical">
+                        <h4><i class="fas fa-exclamation-triangle"></i> أعمال اللحام والقطع الساخنة</h4>
+                        <p><strong>الاحتمالية:</strong> عالية | <strong>الشدة:</strong> كارثية</p>
+                        <div class="control-measures">
+                            <h5>إجراءات السيطرة:</h5>
+                            <ul>
+                                <li>إصدار تصريح عمل ساخن موقع ومعتمد</li>
+                                <li>توفير مراقب حريق مخصص طوال فترة العمل</li>
+                                <li>إبعاد المواد القابلة للاشتعال أو تغطيتها بأغطية مقاومة للحريق</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="hazard-card critical">
+                        <h4><i class="fas fa-exclamation-triangle"></i> تخزين مواد قابلة للاشتعال</h4>
+                        <p><strong>الاحتمالية:</strong> متوسطة | <strong>الشدة:</strong> كارثية</p>
+                        <div class="control-measures">
+                            <h5>إجراءات السيطرة:</h5>
+                            <ul>
+                                <li>تخزين الوقود والمذيبات في خزانات معتمدة بعيداً عن مصادر الاشتعال</li>
+                                <li>تهوية جيدة لمناطق التخزين</li>
+                                <li>لافتات تحذيرية "ممنوع التدخين" واضحة</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="hazard-card moderate">
+                        <h4><i class="fas fa-exclamation-circle"></i> انسداد مسارات ومخارج الطوارئ</h4>
+                        <p><strong>الاحتمالية:</strong> عالية | <strong>الشدة:</strong> خطيرة</p>
+                        <div class="control-measures">
+                            <h5>إجراءات السيطرة:</h5>
+                            <ul>
+                                <li>جولات تفتيش دورية للتأكد من خلو المسارات</li>
+                                <li>تعليم مسارات الإخلاء بلافتات مضيئة</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="hazard-card moderate">
+                        <h4><i class="fas fa-exclamation-circle"></i> نقص أو صلاحية معدات الإخماد</h4>
+                        <p><strong>الاحتمالية:</strong> متوسطة | <strong>الشدة:</strong> خطيرة</p>
+                        <div class="control-measures">
+                            <h5>إجراءات السيطرة:</h5>
+                            <ul>
+                                <li>جدول فحص شهري موثق لجميع الطفايات</li>
+                                <li>استبدال الطفايات منتهية الصلاحية فوراً</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="fire-procedure" class="content-block">
+                <h3>5. إجراءات الوقاية والاستجابة للطوارئ</h3>
+                <div class="erection-steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h5>الاكتشاف والإبلاغ</h5>
+                            <ul>
+                                <li>تفعيل الإنذار فوراً عند اكتشاف حريق أو دخان</li>
+                                <li>إبلاغ غرفة التحكم/مهندس السلامة بالموقع والحجم</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h5>المكافحة الأولية (إن أمكن بأمان)</h5>
+                            <ul>
+                                <li>استخدام الطفاية المناسبة لفئة الحريق فقط عند حريق صغير محتوى</li>
+                                <li>عدم المخاطرة بالسلامة الشخصية لمكافحة حريق كبير</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h5>الإخلاء</h5>
+                            <ul>
+                                <li>التوجه لأقرب مسار إخلاء آمن نحو نقطة التجمع المحددة</li>
+                                <li>عدم استخدام المصاعد أثناء الحريق</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <h5>العد والتحقق</h5>
+                            <ul>
+                                <li>تعداد جميع العاملين بنقطة التجمع مقابل سجل الحضور</li>
+                                <li>إبلاغ فرق الإطفاء بأي أشخاص مفقودين فوراً</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="fire-inspection" class="content-block">
+                <h3>6. برنامج الفحص والتفتيش</h3>
+                <div class="inspection-schedule">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>نوع الفحص</th>
+                                <th>التوقيت</th>
+                                <th>المسؤول</th>
+                                <th>الوثائق المطلوبة</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>فحص بصري لطفايات الحريق</td>
+                                <td>شهري</td>
+                                <td>مهندس السلامة</td>
+                                <td>بطاقة فحص الطفاية</td>
+                            </tr>
+                            <tr>
+                                <td>اختبار أنظمة الإنذار</td>
+                                <td>ربع سنوي</td>
+                                <td>فني متخصص معتمد</td>
+                                <td>تقرير اختبار النظام</td>
+                            </tr>
+                            <tr>
+                                <td>تدريب إخلاء تجريبي</td>
+                                <td>كل 6 أشهر</td>
+                                <td>مدير السلامة بالمشروع</td>
+                                <td>تقرير تقييم التدريب</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div id="fire-checklist" class="content-block">
+                <h3>7. قائمة التحقق التفصيلية</h3>
+                <div class="checklist">
+                    <h4>قائمة فحص الوقاية من الحرائق اليومية</h4>
+                    <div class="checklist-section">
+                        <h5>معدات الإخماد:</h5>
+                        <label><input type="checkbox"> الطفايات متوفرة في جميع النقاط المحددة</label>
+                        <label><input type="checkbox"> مؤشر الضغط ضمن النطاق الأخضر</label>
+                        <label><input type="checkbox"> الطفايات غير محجوبة أو صعبة الوصول</label>
+                    </div>
+                    <div class="checklist-section">
+                        <h5>الأعمال الساخنة:</h5>
+                        <label><input type="checkbox"> تصريح العمل الساخن صادر وموقع</label>
+                        <label><input type="checkbox"> مراقب حريق متواجد أثناء العمل</label>
+                        <label><input type="checkbox"> المواد القابلة للاشتعال مُبعدة أو مغطاة</label>
+                    </div>
+                    <div class="checklist-section">
+                        <h5>مسارات الإخلاء:</h5>
+                        <label><input type="checkbox"> مسارات الإخلاء خالية من العوائق</label>
+                        <label><input type="checkbox"> نقاط التجمع معلّمة وواضحة</label>
+                        <label><input type="checkbox"> لافتات الإخلاء مضاءة وسليمة</label>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- قسم الحفريات -->
+        <section id="excavation" class="module-section">
+            <div class="module-header">
+                <h2>وحدة سلامة الحفريات والخنادق</h2>
+                <p class="module-code">كود المرجع: EXC-005 | التحديث: 2024</p>
+            </div>
+
+            <div class="table-of-contents">
+                <h3>محتويات الوحدة:</h3>
+                <ol>
+                    <li><a href="#exc-components">مكونات نظام حماية الحفريات</a></li>
+                    <li><a href="#exc-types">أنظمة حماية الحفريات</a></li>
+                    <li><a href="#exc-specs">تصنيف التربة وزوايا الميل الآمنة</a></li>
+                    <li><a href="#exc-hazards">المخاطر الشائعة</a></li>
+                    <li><a href="#exc-procedure">إجراءات العمل الآمن</a></li>
+                    <li><a href="#exc-inspection">الفحص والتفتيش</a></li>
+                    <li><a href="#exc-checklist">قوائم التحقق</a></li>
+                </ol>
+            </div>
+
+            <div id="exc-components" class="content-block">
+                <h3>1. مكونات نظام حماية الحفريات</h3>
+                <div class="component-grid">
+                    <div class="component-card">
+                        <div class="component-image"><i class="fas fa-box"></i></div>
+                        <h4>صناديق الدعم (Trench/Shield Boxes)</h4>
+                        <p>هياكل معدنية تحمي العاملين من انهيار جدران الحفرة</p>
+                        <div class="tech-specs">
+                            <h5>المواصفات الفنية:</h5>
+                            <ul>
+                                <li>مصممة من مهندس مؤهل حسب عمق وعرض الحفرة</li>
+                                <li>تمتد فوق حافة الحفرة بحد أدنى 45cm</li>
+                                <li>تصنيف بحمولة أرضية محددة من المصنّع</li>
+                            </ul>
+                        </div>
+                        <div class="standard-references"><span>المرجع: OSHA 1926.652</span></div>
+                    </div>
+                    <div class="component-card">
+                        <div class="component-image"><i class="fas fa-layer-group"></i></div>
+                        <h4>أنظمة الدعم (Shoring Systems)</h4>
+                        <p>هياكل هيدروليكية أو خشبية تسند جدران الحفرة من الانهيار</p>
+                        <div class="tech-specs">
+                            <h5>المواصفات الفنية:</h5>
+                            <ul>
+                                <li>دعامات هيدروليكية قابلة للتعديل حسب عرض الخندق</li>
+                                <li>ألواح دعم (Sheeting) تغطي كامل ارتفاع الجدار</li>
+                                <li>تركيب وفك من أسفل لأعلى بالترتيب العكسي</li>
+                            </ul>
+                        </div>
+                        <div class="standard-references"><span>المرجع: OSHA 1926 Subpart P</span></div>
+                    </div>
+                    <div class="component-card">
+                        <div class="component-image"><i class="fas fa-stairs"></i></div>
+                        <h4>وسائل الوصول والخروج</h4>
+                        <p>سلالم أو منحدرات آمنة للدخول والخروج من الحفرة</p>
+                        <div class="tech-specs">
+                            <h5>المواصفات الفنية:</h5>
+                            <ul>
+                                <li>إلزامية لأي حفرة أعمق من 1.2m (4 أقدام)</li>
+                                <li>لا تبعد أكثر من 7.6m (25 قدم) عن أي عامل</li>
+                                <li>تمتد 0.9m فوق حافة الحفرة</li>
+                            </ul>
+                        </div>
+                        <div class="standard-references"><span>المرجع: OSHA 1926.651(c)</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="exc-types" class="content-block">
+                <h3>2. أنظمة حماية الحفريات</h3>
+                <table class="types-table">
+                    <thead>
+                        <tr>
+                            <th>النظام</th>
+                            <th>المبدأ</th>
+                            <th>الاستخدام النموذجي</th>
+                            <th>المزايا</th>
+                            <th>القيود</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>التمييل (Sloping)</td>
+                            <td>قص الجدار بزاوية آمنة حسب نوع التربة</td>
+                            <td>الحفريات المفتوحة ذات المساحة الكافية</td>
+                            <td>بسيط وغير مكلف</td>
+                            <td>يتطلب مساحة أفقية كبيرة</td>
+                        </tr>
+                        <tr>
+                            <td>التدريج (Benching)</td>
+                            <td>تشكيل الجدار كسلسلة من المصاطب الأفقية</td>
+                            <td>حفريات التربة النوع A/B فقط</td>
+                            <td>يقلل حجم الحفر مقارنة بالتمييل</td>
+                            <td>غير مسموح للتربة النوع C</td>
+                        </tr>
+                        <tr>
+                            <td>الدعم (Shoring)</td>
+                            <td>إسناد الجدران بدعامات هيدروليكية أو خشبية</td>
+                            <td>الخنادق الضيقة العميقة بمساحة محدودة</td>
+                            <td>يقلل مساحة الحفر المطلوبة</td>
+                            <td>يحتاج تركيباً وفكاً دقيقاً</td>
+                        </tr>
+                        <tr>
+                            <td>الدرع الواقي (Shielding)</td>
+                            <td>صندوق يحمي العاملين دون إسناد الجدار فعلياً</td>
+                            <td>الخنادق الطويلة بأعماق متوسطة</td>
+                            <td>قابل للسحب مع تقدم العمل</td>
+                            <td>لا يمنع الانهيار نفسه، يحمي فقط من أثره</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div id="exc-specs" class="content-block">
+                <h3>3. تصنيف التربة وزوايا الميل الآمنة (OSHA)</h3>
+                <div class="load-classification">
+                    <h4>الحد الأقصى لزاوية الميل الآمنة حسب نوع التربة:</h4>
+                    <div class="load-table">
+                        <div class="load-row header">
+                            <span>نوع التربة</span>
+                            <span>الوصف</span>
+                            <span>أقصى زاوية ميل مسموحة</span>
+                            <span>النسبة (أفقي:رأسي)</span>
+                        </div>
+                        <div class="load-row">
+                            <span>النوع A</span>
+                            <span>تربة متماسكة (طين صلب)</span>
+                            <span>53 درجة</span>
+                            <span>3/4 : 1</span>
+                        </div>
+                        <div class="load-row">
+                            <span>النوع B</span>
+                            <span>تربة متوسطة التماسك</span>
+                            <span>45 درجة</span>
+                            <span>1 : 1</span>
+                        </div>
+                        <div class="load-row">
+                            <span>النوع C</span>
+                            <span>تربة رملية غير متماسكة</span>
+                            <span>34 درجة</span>
+                            <span>1.5 : 1</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="safety-factors">
+                    <h4>معاملات الأمان الهندسية:</h4>
+                    <ul>
+                        <li><strong>العمق الحرج الذي يلزم الحماية:</strong> 1.5m (5 أقدام) فأكثر</li>
+                        <li><strong>مسافة تكديس المخلفات عن حافة الحفرة:</strong> 0.6m (2 قدم) على الأقل</li>
+                        <li><strong>مسافة أمان المعدات الثقيلة عن الحافة:</strong> تساوي عمق الحفرة كحد أدنى</li>
+                        <li><strong>حد أدنى للتهوية أو اختبار الغلاف الجوي:</strong> عمق 1.2m فأكثر في المساحات المحصورة</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="exc-hazards" class="content-block">
+                <h3>4. المخاطر الشائعة وإجراءات السيطرة</h3>
+                <div class="hazard-grid">
+                    <div class="hazard-card critical">
+                        <h4><i class="fas fa-exclamation-triangle"></i> انهيار جدران الحفرة</h4>
+                        <p><strong>الاحتمالية:</strong> متوسطة | <strong>الشدة:</strong> كارثية</p>
+                        <div class="control-measures">
+                            <h5>إجراءات السيطرة:</h5>
+                            <ul>
+                                <li>تطبيق نظام حماية مناسب (تمييل/دعم/درع) حسب نوع التربة</li>
+                                <li>فحص يومي من شخص مؤهل قبل دخول أي عامل</li>
+                                <li>إبعاد المخلفات والمعدات عن حافة الحفرة</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="hazard-card critical">
+                        <h4><i class="fas fa-exclamation-triangle"></i> تراكم الغازات الخطرة أو نقص الأكسجين</h4>
+                        <p><strong>الاحتمالية:</strong> منخفضة | <strong>الشدة:</strong> كارثية</p>
+                        <div class="control-measures">
+                            <h5>إجراءات السيطرة:</h5>
+                            <ul>
+                                <li>اختبار الغلاف الجوي قبل الدخول للحفريات العميقة</li>
+                                <li>تهوية ميكانيكية مستمرة عند الحاجة</li>
+                                <li>معدات كشف غاز محمولة للحفريات المصنفة كمساحات محصورة</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="hazard-card moderate">
+                        <h4><i class="fas fa-exclamation-circle"></i> الغرق بتجمع المياه الجوفية</h4>
+                        <p><strong>الاحتمالية:</strong> متوسطة | <strong>الشدة:</strong> خطيرة</p>
+                        <div class="control-measures">
+                            <h5>إجراءات السيطرة:</h5>
+                            <ul>
+                                <li>أنظمة سحب مياه (Dewatering) فعّالة ومستمرة</li>
+                                <li>فحص إضافي بعد أي هطول أمطار</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="hazard-card moderate">
+                        <h4><i class="fas fa-exclamation-circle"></i> اصطدام المعدات الثقيلة بالعاملين</h4>
+                        <p><strong>الاحتمالية:</strong> متوسطة | <strong>الشدة:</strong> خطيرة</p>
+                        <div class="control-measures">
+                            <h5>إجراءات السيطرة:</h5>
+                            <ul>
+                                <li>فصل مسارات المعدات عن مسارات العاملين</li>
+                                <li>إشارات تراجع صوتية ومراقب مختص عند الحاجة</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="exc-procedure" class="content-block">
+                <h3>5. إجراءات العمل الآمن بالحفريات</h3>
+                <div class="erection-steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h5>التخطيط المسبق</h5>
+                            <ul>
+                                <li>تحديد مواقع المرافق تحت الأرض (كهرباء/غاز/مياه) قبل الحفر</li>
+                                <li>تصنيف نوع التربة من شخص مؤهل</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h5>تطبيق نظام الحماية</h5>
+                            <ul>
+                                <li>تركيب نظام التمييل أو الدعم أو الدرع المناسب قبل دخول أي عامل</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h5>الفحص اليومي قبل الدخول</h5>
+                            <ul>
+                                <li>فحص شخص مؤهل للحفرة قبل بداية كل وردية وبعد أي هطول أمطار</li>
+                                <li>اختبار الغلاف الجوي عند الحاجة</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <h5>التنفيذ والمراقبة المستمرة</h5>
+                            <ul>
+                                <li>مراقبة مستمرة لأي علامات تشقق أو حركة بالتربة</li>
+                                <li>إخلاء فوري عند ظهور أي علامة عدم استقرار</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="exc-inspection" class="content-block">
+                <h3>6. برنامج الفحص والتفتيش</h3>
+                <div class="inspection-schedule">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>نوع الفحص</th>
+                                <th>التوقيت</th>
+                                <th>المسؤول</th>
+                                <th>الوثائق المطلوبة</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>فحص يومي قبل الدخول</td>
+                                <td>قبل بداية كل وردية</td>
+                                <td>شخص مؤهل (Competent Person)</td>
+                                <td>سجل فحص الحفرة اليومي</td>
+                            </tr>
+                            <tr>
+                                <td>فحص بعد الظروف الجوية</td>
+                                <td>بعد أي أمطار أو اهتزاز أرضي</td>
+                                <td>مهندس السلامة</td>
+                                <td>تقرير حالة طارئة</td>
+                            </tr>
+                            <tr>
+                                <td>اختبار الغلاف الجوي</td>
+                                <td>قبل كل دخول للحفريات العميقة</td>
+                                <td>فني كشف غازات مؤهل</td>
+                                <td>سجل قراءات الغاز</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div id="exc-checklist" class="content-block">
+                <h3>7. قائمة التحقق التفصيلية</h3>
+                <div class="checklist">
+                    <h4>قائمة فحص الحفريات اليومية</h4>
+                    <div class="checklist-section">
+                        <h5>نظام الحماية:</h5>
+                        <label><input type="checkbox"> نظام الحماية مناسب لنوع التربة والعمق</label>
+                        <label><input type="checkbox"> صناديق الدعم/الدعامات ممتدة فوق حافة الحفرة بالمقدار المطلوب</label>
+                        <label><input type="checkbox"> لا توجد علامات تشقق أو حركة بالجدران</label>
+                    </div>
+                    <div class="checklist-section">
+                        <h5>الوصول والخروج والغلاف الجوي:</h5>
+                        <label><input type="checkbox"> سلالم الوصول متوفرة كل 7.6م كحد أقصى</label>
+                        <label><input type="checkbox"> تم اختبار الغلاف الجوي عند الحاجة</label>
+                        <label><input type="checkbox"> لا يوجد تجمع مياه بقاع الحفرة</label>
+                    </div>
+                    <div class="checklist-section">
+                        <h5>محيط الحفرة:</h5>
+                        <label><input type="checkbox"> المخلفات والمعدات مبعدة 0.6م عن الحافة</label>
+                        <label><input type="checkbox"> حواجز تحذيرية حول محيط الحفرة</label>
+                        <label><input type="checkbox"> مواقع المرافق تحت الأرض محددة ومعلّمة</label>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- قسم الرافعات -->
+        <section id="cranes" class="module-section">
+            <div class="module-header">
+                <h2>وحدة سلامة الرافعات وأعمال الرفع</h2>
+                <p class="module-code">كود المرجع: CRN-006 | التحديث: 2024</p>
+            </div>
+
+            <div class="table-of-contents">
+                <h3>محتويات الوحدة:</h3>
+                <ol>
+                    <li><a href="#crn-components">مكونات نظام الرفع</a></li>
+                    <li><a href="#crn-types">أنواع الرافعات</a></li>
+                    <li><a href="#crn-specs">معاملات الأمان وحدود الحمولة</a></li>
+                    <li><a href="#crn-hazards">المخاطر الشائعة</a></li>
+                    <li><a href="#crn-procedure">إجراءات الرفع الآمن</a></li>
+                    <li><a href="#crn-inspection">الفحص والتفتيش</a></li>
+                    <li><a href="#crn-checklist">قوائم التحقق</a></li>
+                </ol>
+            </div>
+
+            <div id="crn-components" class="content-block">
+                <h3>1. مكونات نظام الرفع والتربيط (Rigging)</h3>
+                <div class="component-grid">
+                    <div class="component-card">
+                        <div class="component-image"><i class="fas fa-grip-lines"></i></div>
+                        <h4>أسلاك الرفع (Wire Ropes)</h4>
+                        <p>تنقل حمولة الرفع من الرافعة إلى الحمولة المرفوعة</p>
+                        <div class="tech-specs">
+                            <h5>المواصفات الفنية:</h5>
+                            <ul>
+                                <li>معامل أمان لا يقل عن 5:1 عن الحمل الأقصى المصمم</li>
+                                <li>استبدال فوري عند وجود أكثر من 6 خيوط مقطوعة في شريحة واحدة</li>
+                                <li>تشحيم دوري لمنع التآكل والصدأ</li>
+                            </ul>
+                        </div>
+                        <div class="standard-references"><span>المرجع: ASME B30.5</span></div>
+                    </div>
+                    <div class="component-card">
+                        <div class="component-image"><i class="fas fa-link"></i></div>
+                        <h4>أدوات التربيط (Slings & Shackles)</h4>
+                        <p>تربط الحمولة بخطاف الرافعة بشكل آمن ومتوازن</p>
+                        <div class="tech-specs">
+                            <h5>المواصفات الفنية:</h5>
+                            <ul>
+                                <li>وسم واضح للحمولة الآمنة القصوى (WLL) على كل قطعة</li>
+                                <li>فحص بصري قبل كل استخدام إلزامي</li>
+                                <li>تخزين بعيداً عن الحواف الحادة والمواد الكيميائية</li>
+                            </ul>
+                        </div>
+                        <div class="standard-references"><span>المرجع: OSHA 1926.251</span></div>
+                    </div>
+                    <div class="component-card">
+                        <div class="component-image"><i class="fas fa-person-military-pointing"></i></div>
+                        <h4>نظام الإشارات والتواصل</h4>
+                        <p>يضمن تنسيقاً آمناً بين عامل الإشارة ومشغل الرافعة</p>
+                        <div class="tech-specs">
+                            <h5>المواصفات الفنية:</h5>
+                            <ul>
+                                <li>عامل إشارة معتمد ومرئي لمشغل الرافعة في جميع الأوقات</li>
+                                <li>إشارات يدوية موحدة أو أجهزة لاسلكية عند غياب الرؤية المباشرة</li>
+                                <li>لغة تواصل موحدة ومفهومة لجميع الأطراف</li>
+                            </ul>
+                        </div>
+                        <div class="standard-references"><span>المرجع: OSHA 1926.1419</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="crn-types" class="content-block">
+                <h3>2. أنواع الرافعات المستخدمة بمواقع البناء</h3>
+                <table class="types-table">
+                    <thead>
+                        <tr>
+                            <th>النوع</th>
+                            <th>الاستخدام الرئيسي</th>
+                            <th>الحمولة النموذجية</th>
+                            <th>المزايا</th>
+                            <th>القيود</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>الرافعة البرجية (Tower Crane)</td>
+                            <td>المباني الشاهقة طويلة المدى</td>
+                            <td>حتى 20 طن</td>
+                            <td>ارتفاع ومدى كبيرين</td>
+                            <td>تركيب وفك معقد ومكلف</td>
+                        </tr>
+                        <tr>
+                            <td>الرافعة المتحركة (Mobile Crane)</td>
+                            <td>أعمال قصيرة المدى ومتعددة المواقع</td>
+                            <td>حتى 500 طن حسب الطراز</td>
+                            <td>مرونة الحركة بين المواقع</td>
+                            <td>تحتاج أرضية مستوية ومساحة نصب</td>
+                        </tr>
+                        <tr>
+                            <td>الرافعة الزاحفة (Crawler Crane)</td>
+                            <td>الحمولات الثقيلة جداً</td>
+                            <td>حتى 3000 طن</td>
+                            <td>ثبات عالٍ على أرضيات غير مستوية</td>
+                            <td>سرعة حركة بطيئة ووزن كبير</td>
+                        </tr>
+                        <tr>
+                            <td>رافعة الشوكة (Telehandler)</td>
+                            <td>نقل المواد لمسافات ومرتفعات متوسطة</td>
+                            <td>حتى 5 طن</td>
+                            <td>تعدد الاستخدامات بالموقع</td>
+                            <td>مدى ارتفاع محدود مقارنة بالبرجية</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div id="crn-specs" class="content-block">
+                <h3>3. معاملات الأمان وحدود الحمولة</h3>
+                <div class="safety-factors">
+                    <h4>معاملات الأمان الهندسية:</h4>
+                    <ul>
+                        <li><strong>معامل أمان أسلاك الرفع:</strong> 5:1 عن الحمل الأقصى المصمم</li>
+                        <li><strong>معامل أمان أدوات التربيط:</strong> 5:1 (Wire rope slings)</li>
+                        <li><strong>الحد الأقصى للحمولة الآمنة (WLL):</strong> يُحدد وفق جدول الحمولة الخاص بكل رافعة ولا يُتجاوز إطلاقاً</li>
+                        <li><strong>منطقة الاستبعاد:</strong> يُمنع مرور الأفراد أسفل الحمولة المعلّقة نهائياً</li>
+                    </ul>
+                </div>
+                <div class="safety-factors">
+                    <h4>حدود التشغيل البيئية:</h4>
+                    <ul>
+                        <li><strong>سرعة الرياح القصوى للتشغيل:</strong> عادة 38-45 كم/س حسب توصية المصنّع (تتوقف الرافعات البرجية عند تجاوزها)</li>
+                        <li><strong>المسافة الآمنة من خطوط الجهد الكهربائي:</strong> 3.05m لخطوط حتى 50kV، وتزداد مع ارتفاع الجهد</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="crn-hazards" class="content-block">
+                <h3>4. المخاطر الشائعة وإجراءات السيطرة</h3>
+                <div class="hazard-grid">
+                    <div class="hazard-card critical">
+                        <h4><i class="fas fa-exclamation-triangle"></i> انقلاب الرافعة</h4>
+                        <p><strong>الاحتمالية:</strong> منخفضة | <strong>الشدة:</strong> كارثية</p>
+                        <div class="control-measures">
+                            <h5>إجراءات السيطرة:</h5>
+                            <ul>
+                                <li>التأكد من قدرة تحمل الأرضية ونصب على ألواح توزيع الحمل</li>
+                                <li>الالتزام الصارم بجدول الحمولة حسب نصف قطر العمل</li>
+                                <li>إيقاف التشغيل عند تجاوز سرعة الرياح المسموحة</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="hazard-card critical">
+                        <h4><i class="fas fa-exclamation-triangle"></i> سقوط الحمولة</h4>
+                        <p><strong>الاحتمالية:</strong> متوسطة | <strong>الشدة:</strong> كارثية</p>
+                        <div class="control-measures">
+                            <h5>إجراءات السيطرة:</h5>
+                            <ul>
+                                <li>فحص أدوات التربيط قبل كل عملية رفع</li>
+                                <li>حظر الوقوف أو المرور أسفل الحمولة المعلّقة</li>
+                                <li>استخدام حبل توجيه (Tag line) للتحكم بحركة الحمولة</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="hazard-card moderate">
+                        <h4><i class="fas fa-exclamation-circle"></i> التصادم مع خطوط الكهرباء</h4>
+                        <p><strong>الاحتمالية:</strong> منخفضة | <strong>الشدة:</strong> كارثية</p>
+                        <div class="control-measures">
+                            <h5>إجراءات السيطرة:</h5>
+                            <ul>
+                                <li>تحديد مسافة الأمان من الخطوط قبل بدء أي عملية رفع قريبة</li>
+                                <li>استخدام مراقب مختص عند العمل بالقرب من الخطوط الحية</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="hazard-card moderate">
+                        <h4><i class="fas fa-exclamation-circle"></i> فشل أسلاك أو معدات الرفع</h4>
+                        <p><strong>الاحتمالية:</strong> منخفضة | <strong>الشدة:</strong> خطيرة</p>
+                        <div class="control-measures">
+                            <h5>إجراءات السيطرة:</h5>
+                            <ul>
+                                <li>فحص دوري موثق لجميع أسلاك الرفع والمعدات</li>
+                                <li>إخراج أي معدة تالفة من الخدمة فوراً</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="crn-procedure" class="content-block">
+                <h3>5. إجراءات الرفع الآمن</h3>
+                <div class="erection-steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h5>خطة الرفع المسبقة (Lift Plan)</h5>
+                            <ul>
+                                <li>تحديد وزن الحمولة ونصف القطر والحمولة القصوى المسموحة</li>
+                                <li>اعتماد الخطة من مهندس الرفع المؤهل للرفعات الحرجة</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h5>تجهيز الموقع والنصب</h5>
+                            <ul>
+                                <li>التأكد من ثبات واستواء أرضية النصب</li>
+                                <li>تحديد منطقة استبعاد حول نطاق عمل الرافعة</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h5>الفحص والتربيط قبل الرفع</h5>
+                            <ul>
+                                <li>فحص أدوات التربيط والتأكد من توازن الحمولة</li>
+                                <li>رفع تجريبي بارتفاع منخفض للتأكد من الاستقرار</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <h5>التنفيذ والتنسيق</h5>
+                            <ul>
+                                <li>تواصل مستمر بين عامل الإشارة والمشغل طوال عملية الرفع</li>
+                                <li>استخدام حبل التوجيه للتحكم بحركة الحمولة</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="crn-inspection" class="content-block">
+                <h3>6. برنامج الفحص والتفتيش</h3>
+                <div class="inspection-schedule">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>نوع الفحص</th>
+                                <th>التوقيت</th>
+                                <th>المسؤول</th>
+                                <th>الوثائق المطلوبة</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>فحص يومي قبل التشغيل</td>
+                                <td>قبل بداية كل وردية</td>
+                                <td>مشغل الرافعة</td>
+                                <td>سجل الفحص اليومي</td>
+                            </tr>
+                            <tr>
+                                <td>فحص شهري</td>
+                                <td>كل 30 يوماً</td>
+                                <td>فني صيانة مؤهل</td>
+                                <td>تقرير الفحص الشهري</td>
+                            </tr>
+                            <tr>
+                                <td>فحص وشهادة سنوية</td>
+                                <td>سنوياً</td>
+                                <td>مفتش رافعات معتمد خارجي</td>
+                                <td>شهادة الفحص السنوي (Load Test)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div id="crn-checklist" class="content-block">
+                <h3>7. قائمة التحقق التفصيلية</h3>
+                <div class="checklist">
+                    <h4>قائمة فحص الرافعات اليومية</h4>
+                    <div class="checklist-section">
+                        <h5>الحالة الميكانيكية:</h5>
+                        <label><input type="checkbox"> أسلاك الرفع سليمة دون تلف أو تآكل ظاهر</label>
+                        <label><input type="checkbox"> نظام الفرامل يعمل بكفاءة</label>
+                        <label><input type="checkbox"> جدول الحمولة موجود وواضح بكابينة التشغيل</label>
+                    </div>
+                    <div class="checklist-section">
+                        <h5>أدوات التربيط والرفع:</h5>
+                        <label><input type="checkbox"> الأحبال والشناكل ضمن تاريخ الفحص الساري</label>
+                        <label><input type="checkbox"> لا يوجد تشوه أو تشقق بأدوات التربيط</label>
+                        <label><input type="checkbox"> حبل التوجيه (Tag line) متوفر ومستخدم</label>
+                    </div>
+                    <div class="checklist-section">
+                        <h5>الموقع والتنسيق:</h5>
+                        <label><input type="checkbox"> منطقة الاستبعاد محددة ومؤمنة</label>
+                        <label><input type="checkbox"> عامل الإشارة معتمد ومتواجد</label>
+                        <label><input type="checkbox"> تم التحقق من سرعة الرياح ضمن الحدود المسموحة</label>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- قسم معدات الوقاية الشخصية -->
+        <section id="ppe" class="module-section">
+            <div class="module-header">
+                <h2>وحدة معدات الوقاية الشخصية (PPE)</h2>
+                <p class="module-code">كود المرجع: PPE-007 | التحديث: 2024</p>
+            </div>
+
+            <div class="table-of-contents">
+                <h3>محتويات الوحدة:</h3>
+                <ol>
+                    <li><a href="#ppe-components">مكونات معدات الوقاية الأساسية</a></li>
+                    <li><a href="#ppe-types">تصنيف المعدات حسب نوع الخطر</a></li>
+                    <li><a href="#ppe-specs">هرمية التحكم بالمخاطر واختيار المعدات</a></li>
+                    <li><a href="#ppe-hazards">أخطاء الاستخدام الشائعة</a></li>
+                    <li><a href="#ppe-procedure">إجراءات الارتداء والصيانة</a></li>
+                    <li><a href="#ppe-inspection">الفحص والتفتيش</a></li>
+                    <li><a href="#ppe-checklist">قوائم التحقق</a></li>
+                </ol>
+            </div>
+
+            <div id="ppe-components" class="content-block">
+                <h3>1. مكونات معدات الوقاية الأساسية</h3>
+                <div class="component-grid">
+                    <div class="component-card">
+                        <div class="component-image"><i class="fas fa-hard-hat"></i></div>
+                        <h4>خوذة الأمان</h4>
+                        <p>تحمي الرأس من الصدمات والأجسام الساقطة والمخاطر الكهربائية</p>
+                        <div class="tech-specs">
+                            <h5>المواصفات الفنية:</h5>
+                            <ul>
+                                <li>النوع I: حماية من صدمات علوية | النوع II: حماية من صدمات جانبية أيضاً</li>
+                                <li>الفئة E: عزل كهربائي حتى 20,000 فولت</li>
+                                <li>استبدال إلزامي بعد أي صدمة أو كل 5 سنوات</li>
+                            </ul>
+                        </div>
+                        <div class="standard-references"><span>المرجع: ANSI Z89.1 / EN 397</span></div>
+                    </div>
+                    <div class="component-card">
+                        <div class="component-image"><i class="fas fa-glasses"></i></div>
+                        <h4>وقاية العين والوجه</h4>
+                        <p>تحمي من الشظايا والغبار والأشعة الضارة والمواد الكيميائية</p>
+                        <div class="tech-specs">
+                            <h5>المواصفات الفنية:</h5>
+                            <ul>
+                                <li>مقاومة الصدمات العالية (High-impact rated)</li>
+                                <li>واقي وجه إضافي لأعمال الصنفرة واللحام</li>
+                                <li>عدسات ملونة خاصة لأعمال اللحام (درجة تظليل مناسبة)</li>
+                            </ul>
+                        </div>
+                        <div class="standard-references"><span>المرجع: ANSI Z87.1 / EN 166</span></div>
+                    </div>
+                    <div class="component-card">
+                        <div class="component-image"><i class="fas fa-mitten"></i></div>
+                        <h4>القفازات الواقية</h4>
+                        <p>تحمي اليدين حسب طبيعة المهمة (ميكانيكية، كيميائية، حرارية)</p>
+                        <div class="tech-specs">
+                            <h5>المواصفات الفنية:</h5>
+                            <ul>
+                                <li>تصنيف EN 388 لمقاومة القطع والتآكل والثقب</li>
+                                <li>قفازات عازلة كهربائياً للأعمال الكهربائية</li>
+                                <li>استبدال فوري عند التآكل أو التلف</li>
+                            </ul>
+                        </div>
+                        <div class="standard-references"><span>المرجع: EN 388 / ANSI/ISEA 105</span></div>
+                    </div>
+                    <div class="component-card">
+                        <div class="component-image"><i class="fas fa-socks"></i></div>
+                        <h4>أحذية السلامة</h4>
+                        <p>تحمي القدم من السحق والثقب والانزلاق والمخاطر الكهربائية</p>
+                        <div class="tech-specs">
+                            <h5>المواصفات الفنية:</h5>
+                            <ul>
+                                <li>مقدمة معدنية أو مركبة تتحمل صدمة 200 جول</li>
+                                <li>نعل مقاوم للثقب ومضاد للانزلاق</li>
+                                <li>عزل كهربائي حسب طبيعة العمل (EH rated)</li>
+                            </ul>
+                        </div>
+                        <div class="standard-references"><span>المرجع: ASTM F2413 / EN ISO 20345</span></div>
+                    </div>
+                    <div class="component-card">
+                        <div class="component-image"><i class="fas fa-ear-listen"></i></div>
+                        <h4>واقيات السمع</h4>
+                        <p>تحمي من فقدان السمع الناتج عن التعرض للضوضاء المرتفعة</p>
+                        <div class="tech-specs">
+                            <h5>المواصفات الفنية:</h5>
+                            <ul>
+                                <li>إلزامية عند مستوى ضوضاء 85dB فأكثر لثماني ساعات</li>
+                                <li>سدادات أذن أو واقيات كاملة حسب معامل الخفض المطلوب (NRR)</li>
+                            </ul>
+                        </div>
+                        <div class="standard-references"><span>المرجع: OSHA 1910.95</span></div>
+                    </div>
+                    <div class="component-card">
+                        <div class="component-image"><i class="fas fa-lungs"></i></div>
+                        <h4>أجهزة حماية الجهاز التنفسي</h4>
+                        <p>تحمي من استنشاق الغبار والأبخرة والغازات الضارة</p>
+                        <div class="tech-specs">
+                            <h5>المواصفات الفنية:</h5>
+                            <ul>
+                                <li>كمامة N95 للغبار العام، وأقنعة مزودة بفلاتر للمواد الكيميائية</li>
+                                <li>اختبار ملاءمة (Fit test) دوري لضمان الإحكام</li>
+                                <li>أجهزة تنفس مستقلة (SCBA) للمساحات المحصورة الخطرة</li>
+                            </ul>
+                        </div>
+                        <div class="standard-references"><span>المرجع: NIOSH 42 CFR 84</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="ppe-types" class="content-block">
+                <h3>2. تصنيف معدات الوقاية حسب نوع الخطر</h3>
+                <table class="types-table">
+                    <thead>
+                        <tr>
+                            <th>منطقة الحماية</th>
+                            <th>الخطر المستهدف</th>
+                            <th>المعدة المناسبة</th>
+                            <th>المعيار المرجعي</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>الرأس</td>
+                            <td>سقوط أجسام، صدمات، مخاطر كهربائية</td>
+                            <td>خوذة أمان</td>
+                            <td>ANSI Z89.1 / EN 397</td>
+                        </tr>
+                        <tr>
+                            <td>العين والوجه</td>
+                            <td>شظايا، غبار، إشعاع لحام</td>
+                            <td>نظارات/واقي وجه</td>
+                            <td>ANSI Z87.1 / EN 166</td>
+                        </tr>
+                        <tr>
+                            <td>السمع</td>
+                            <td>ضوضاء مرتفعة</td>
+                            <td>سدادات/واقيات أذن</td>
+                            <td>OSHA 1910.95</td>
+                        </tr>
+                        <tr>
+                            <td>الجهاز التنفسي</td>
+                            <td>غبار، أبخرة، غازات</td>
+                            <td>كمامات/أقنعة تنفس</td>
+                            <td>NIOSH 42 CFR 84</td>
+                        </tr>
+                        <tr>
+                            <td>اليدين</td>
+                            <td>قطع، ثقب، مواد كيميائية، صعق</td>
+                            <td>قفازات متخصصة</td>
+                            <td>EN 388 / ANSI/ISEA 105</td>
+                        </tr>
+                        <tr>
+                            <td>القدمين</td>
+                            <td>سحق، ثقب، انزلاق</td>
+                            <td>أحذية سلامة</td>
+                            <td>ASTM F2413 / EN ISO 20345</td>
+                        </tr>
+                        <tr>
+                            <td>الجسم كاملاً</td>
+                            <td>سقوط من ارتفاع، مرئية منخفضة</td>
+                            <td>حزام أمان / سترة عاكسة</td>
+                            <td>ANSI/ASSP Z359 / ANSI/ISEA 107</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div id="ppe-specs" class="content-block">
+                <h3>3. هرمية التحكم بالمخاطر واختيار المعدات</h3>
+                <div class="safety-factors">
+                    <h4>هرمية ضبط المخاطر (من الأكثر فعالية للأقل):</h4>
+                    <ul>
+                        <li><strong>1. الاستبعاد:</strong> إزالة الخطر بالكامل من مصدره</li>
+                        <li><strong>2. الإحلال:</strong> استبدال العملية أو المادة الخطرة بأخرى أقل خطورة</li>
+                        <li><strong>3. الضوابط الهندسية:</strong> حواجز، تهوية، عزل المصدر</li>
+                        <li><strong>4. الضوابط الإدارية:</strong> إجراءات عمل، تدريب، تصاريح عمل</li>
+                        <li><strong>5. معدات الوقاية الشخصية (PPE):</strong> خط الدفاع الأخير عند تعذر ما سبق</li>
+                    </ul>
+                </div>
+                <div class="safety-factors">
+                    <h4>معايير اختيار معدة الوقاية المناسبة:</h4>
+                    <ul>
+                        <li>تحديد الخطر بدقة عبر تقييم المخاطر قبل اختيار المعدة</li>
+                        <li>التأكد من مطابقة المعدة للمعيار الدولي المعتمد</li>
+                        <li>ضمان المقاس الصحيح والراحة لضمان الالتزام بالاستخدام</li>
+                        <li>التوافق بين معدات الوقاية المتعددة (مثل الخوذة مع واقي السمع)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="ppe-hazards" class="content-block">
+                <h3>4. أخطاء الاستخدام الشائعة وإجراءات السيطرة</h3>
+                <div class="hazard-grid">
+                    <div class="hazard-card critical">
+                        <h4><i class="fas fa-exclamation-triangle"></i> استخدام معدة غير مطابقة لطبيعة الخطر</h4>
+                        <p><strong>الاحتمالية:</strong> متوسطة | <strong>الشدة:</strong> حرجة</p>
+                        <div class="control-measures">
+                            <h5>إجراءات السيطرة:</h5>
+                            <ul>
+                                <li>إجراء تقييم مخاطر لكل مهمة قبل تحديد المعدة المطلوبة</li>
+                                <li>تدريب العاملين على الفرق بين تصنيفات المعدات</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="hazard-card moderate">
+                        <h4><i class="fas fa-exclamation-circle"></i> معدة تالفة أو منتهية الصلاحية</h4>
+                        <p><strong>الاحتمالية:</strong> عالية | <strong>الشدة:</strong> خطيرة</p>
+                        <div class="control-measures">
+                            <h5>إجراءات السيطرة:</h5>
+                            <ul>
+                                <li>فحص بصري قبل كل استخدام</li>
+                                <li>جدول استبدال دوري موثق حسب توصية المصنّع</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="hazard-card moderate">
+                        <h4><i class="fas fa-exclamation-circle"></i> عدم الالتزام بالارتداء المستمر</h4>
+                        <p><strong>الاحتمالية:</strong> عالية | <strong>الشدة:</strong> خطيرة</p>
+                        <div class="control-measures">
+                            <h5>إجراءات السيطرة:</h5>
+                            <ul>
+                                <li>مراقبة ميدانية دورية من مشرفي السلامة</li>
+                                <li>ثقافة سلامة داعمة تشجع الإبلاغ دون عقاب</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="hazard-card moderate">
+                        <h4><i class="fas fa-exclamation-circle"></i> مقاس أو ملاءمة غير صحيحة</h4>
+                        <p><strong>الاحتمالية:</strong> متوسطة | <strong>الشدة:</strong> متوسطة</p>
+                        <div class="control-measures">
+                            <h5>إجراءات السيطرة:</h5>
+                            <ul>
+                                <li>توفير مقاسات متعددة تناسب جميع العاملين</li>
+                                <li>اختبار ملاءمة دوري لأقنعة التنفس</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="ppe-procedure" class="content-block">
+                <h3>5. إجراءات الارتداء والصيانة</h3>
+                <div class="erection-steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h5>تقييم الخطر وتحديد المعدة</h5>
+                            <ul>
+                                <li>تحديد المعدات المطلوبة لكل مهمة حسب تقييم المخاطر</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h5>الفحص قبل الارتداء</h5>
+                            <ul>
+                                <li>التأكد من سلامة المعدة وخلوها من أي تلف ظاهر</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h5>الارتداء الصحيح</h5>
+                            <ul>
+                                <li>ضبط المعدة لتحقيق الملاءمة والراحة دون التأثير على الحماية</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <h5>التنظيف والتخزين</h5>
+                            <ul>
+                                <li>تنظيف المعدة بعد الاستخدام وتخزينها في مكان جاف بعيداً عن أشعة الشمس المباشرة</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="ppe-inspection" class="content-block">
+                <h3>6. برنامج الفحص والتفتيش</h3>
+                <div class="inspection-schedule">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>نوع الفحص</th>
+                                <th>التوقيت</th>
+                                <th>المسؤول</th>
+                                <th>الوثائق المطلوبة</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>فحص قبل الاستخدام</td>
+                                <td>قبل كل وردية عمل</td>
+                                <td>العامل نفسه</td>
+                                <td>لا يحتاج توثيق - إبلاغ فوري عند التلف</td>
+                            </tr>
+                            <tr>
+                                <td>جولة تفتيش ميدانية</td>
+                                <td>يومي</td>
+                                <td>المشرف المباشر</td>
+                                <td>سجل الالتزام اليومي</td>
+                            </tr>
+                            <tr>
+                                <td>مراجعة مخزون واستبدال المعدات</td>
+                                <td>شهري</td>
+                                <td>مسؤول المخازن/السلامة</td>
+                                <td>سجل صرف واستبدال المعدات</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div id="ppe-checklist" class="content-block">
+                <h3>7. قائمة التحقق التفصيلية</h3>
+                <div class="checklist">
+                    <h4>قائمة فحص معدات الوقاية الشخصية اليومية</h4>
+                    <div class="checklist-section">
+                        <h5>الحماية الأساسية:</h5>
+                        <label><input type="checkbox"> خوذة الأمان مرتداة وسليمة</label>
+                        <label><input type="checkbox"> نظارات/واقي الوجه مناسب للمهمة</label>
+                        <label><input type="checkbox"> سترة عاكسة مرتداة وواضحة</label>
+                    </div>
+                    <div class="checklist-section">
+                        <h5>الحماية الإضافية حسب المهمة:</h5>
+                        <label><input type="checkbox"> قفازات مناسبة لنوع العمل</label>
+                        <label><input type="checkbox"> واقيات سمع في مناطق الضوضاء العالية</label>
+                        <label><input type="checkbox"> حماية تنفسية عند التعرض للغبار أو الأبخرة</label>
+                    </div>
+                    <div class="checklist-section">
+                        <h5>الحالة العامة للمعدات:</h5>
+                        <label><input type="checkbox"> لا يوجد تلف أو تشقق ظاهر بأي معدة</label>
+                        <label><input type="checkbox"> أحذية السلامة سليمة ومناسبة للمهمة</label>
+                        <label><input type="checkbox"> جميع المعدات ضمن تاريخ الصلاحية</label>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- قسم فهرس قوائم الفحص -->
+        <section id="checklists" class="module-section">
+            <div class="module-header">
+                <h2>فهرس قوائم الفحص الشامل</h2>
+                <p class="module-code">كود المرجع: CHK-008 | التحديث: 2024</p>
+            </div>
+
+            <div class="content-block">
+                <h3>الوصول السريع لقوائم فحص كل وحدة</h3>
+                <p>تجمع هذه الصفحة روابط مباشرة لجميع قوائم التحقق التفصيلية الموزعة على وحدات المنصة، بالإضافة إلى قائمة تدقيق سلامة عامة للموقع.</p>
+                <div class="checklist-index-grid">
+                    <a href="#scaffold-checklist" class="checklist-index-card">
+                        <i class="fas fa-grip-vertical"></i>
+                        <span>قائمة فحص السقالات</span>
+                    </a>
+                    <a href="#fp-checklist" class="checklist-index-card">
+                        <i class="fas fa-vest"></i>
+                        <span>قائمة فحص الحماية من السقوط</span>
+                    </a>
+                    <a href="#elec-checklist" class="checklist-index-card">
+                        <i class="fas fa-bolt"></i>
+                        <span>قائمة فحص السلامة الكهربائية</span>
+                    </a>
+                    <a href="#fire-checklist" class="checklist-index-card">
+                        <i class="fas fa-fire-extinguisher"></i>
+                        <span>قائمة فحص الوقاية من الحرائق</span>
+                    </a>
+                    <a href="#exc-checklist" class="checklist-index-card">
+                        <i class="fas fa-person-digging"></i>
+                        <span>قائمة فحص الحفريات</span>
+                    </a>
+                    <a href="#crn-checklist" class="checklist-index-card">
+                        <i class="fas fa-truck-pickup"></i>
+                        <span>قائمة فحص الرافعات</span>
+                    </a>
+                    <a href="#ppe-checklist" class="checklist-index-card">
+                        <i class="fas fa-hard-hat"></i>
+                        <span>قائمة فحص معدات الوقاية الشخصية</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="content-block">
+                <h3>قائمة تدقيق السلامة العامة اليومية للموقع</h3>
+                <div class="checklist">
+                    <h4>التدقيق العام اليومي لسلامة الموقع</h4>
+                    <div class="checklist-section">
+                        <h5>الإدارة والتوثيق:</h5>
+                        <label><input type="checkbox"> جميع تصاريح العمل الساري صادرة وموقعة</label>
+                        <label><input type="checkbox"> إحاطة السلامة اليومية (Toolbox Talk) تمت قبل بدء العمل</label>
+                        <label><input type="checkbox"> سجلات الحضور وأعداد العاملين محدثة</label>
+                    </div>
+                    <div class="checklist-section">
+                        <h5>الموقع العام:</h5>
+                        <label><input type="checkbox"> مسارات الحركة والإخلاء خالية من العوائق</label>
+                        <label><input type="checkbox"> لافتات التحذير والسلامة واضحة ومقروءة</label>
+                        <label><input type="checkbox"> نقاط الإسعافات الأولية مجهزة ويسهل الوصول إليها</label>
+                    </div>
+                    <div class="checklist-section">
+                        <h5>الطوارئ:</h5>
+                        <label><input type="checkbox"> أرقام الطوارئ معلّقة وواضحة بجميع أنحاء الموقع</label>
+                        <label><input type="checkbox"> معدات الإخماد وخطط الإخلاء جاهزة ومحدثة</label>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- قسم المصادر -->
         <section id="references" class="references-section">
             <h2>المصادر العلمية والمعايير الدولية</h2>
             
             <div class="references-grid">
                 <div class="reference-card">
-                    <img src="osha-logo.png" alt="OSHA">
+                    <div class="reference-icon"><i class="fas fa-flag-usa"></i></div>
                     <h3>OSHA</h3>
                     <p>إدارة السلامة والصحة المهنية الأمريكية</p>
                     <ul>
@@ -484,7 +2401,7 @@
                 </div>
 
                 <div class="reference-card">
-                    <img src="ilo-logo.png" alt="ILO">
+                    <div class="reference-icon"><i class="fas fa-globe"></i></div>
                     <h3>ILO</h3>
                     <p>منظمة العمل الدولية</p>
                     <ul>
@@ -496,7 +2413,7 @@
                 </div>
 
                 <div class="reference-card">
-                    <img src="niosh-logo.png" alt="NIOSH">
+                    <div class="reference-icon"><i class="fas fa-microscope"></i></div>
                     <h3>NIOSH</h3>
                     <p>المعهد الوطني للسلامة والصحة المهنية</p>
                     <ul>
@@ -508,7 +2425,7 @@
                 </div>
 
                 <div class="reference-card">
-                    <img src="eu-logo.png" alt="EU Standards">
+                    <div class="reference-icon"><i class="fas fa-star"></i></div>
                     <h3>المعايير الأوروبية</h3>
                     <p>EN Standards</p>
                     <ul>
@@ -517,6 +2434,30 @@
                         <li>EN 74 - الوصلات والمثبتات</li>
                     </ul>
                     <a href="https://www.cen.eu" target="_blank">زيارة الموقع</a>
+                </div>
+
+                <div class="reference-card">
+                    <div class="reference-icon"><i class="fas fa-fire-extinguisher"></i></div>
+                    <h3>NFPA</h3>
+                    <p>الرابطة الوطنية الأمريكية للحماية من الحرائق</p>
+                    <ul>
+                        <li>NFPA 10 - طفايات الحريق المحمولة</li>
+                        <li>NFPA 70E - السلامة الكهربائية بأماكن العمل</li>
+                        <li>NFPA 241 - الوقاية أثناء الإنشاء</li>
+                    </ul>
+                    <a href="https://www.nfpa.org" target="_blank">زيارة الموقع</a>
+                </div>
+
+                <div class="reference-card">
+                    <div class="reference-icon"><i class="fas fa-certificate"></i></div>
+                    <h3>ANSI / ASSP</h3>
+                    <p>المعهد الوطني الأمريكي للمعايير</p>
+                    <ul>
+                        <li>ANSI/ASSP Z359 - أنظمة الحماية من السقوط</li>
+                        <li>ANSI Z87.1 - حماية العين والوجه</li>
+                        <li>ANSI/ASME B30 - الرافعات ومعدات الرفع</li>
+                    </ul>
+                    <a href="https://www.assp.org" target="_blank">زيارة الموقع</a>
                 </div>
             </div>
         </section>
